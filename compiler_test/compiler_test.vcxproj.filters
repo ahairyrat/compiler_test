@@ -18,18 +18,18 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
+    <ClInclude Include="includes\commentParser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="src\compiler_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="compiler_test.cpp">
+    <ClCompile Include="src\commentParserUpdate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\commentParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
